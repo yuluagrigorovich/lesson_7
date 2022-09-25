@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+[class*="container"]{
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.content__container {
+	margin-top: 50px;
+	margin-bottom: 70px;
+	font-family: "Lato", sans-serif;
+	font-size: 46px;
+	font-weight: 900;
+	line-height: 1.3;
+	color: #1e212c;
+}
+
+.image__container {
+	margin-bottom: 70px;
+	border-radius: 4px;
+}
+
+.image {
+	max-width: 100%;
+}
+
+.poragraf {
+	margin-bottom: 30px;
+}
+
+.poragraf__container {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e212c;
+}
+
+.text {
+	margin-bottom: 70px;
+}
+
+.text-1__container {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #424551;
+	margin-bottom: 10px;
+}
+
+.text-2__container {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #424551;
+}
+
+.poragraf3 {
+	margin-bottom: 70px;
+	padding-left: 100px;
+}
+
+.poragraf3__container {
+	font-family: "Lato", sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 1.5;
+	color: #1e212c;
+}
+
+.poragraf4 {
+	margin-bottom: 30px;
+}
+
+.poragraf4__container {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #424551;
+}
+
+.subitems {
+	margin-bottom: 30px;
+	padding-left: 20px;
+}
+
+.subitems__container {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #424551;
+	line-height: 2.5;
+	padding-left: 40px;
+}
+
+.item {
+	margin-bottom: 10px;
+}
+
+.poragraf5 {
+	margin-bottom: 100px;
+}
+
+.poragraf5__container {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.6;
+	color: #424551;
+}
+
+
+
+.block{}
+.block__container{
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.block__background {
+	padding: 15px;
+	background: yellowgreen url(../img/sky.jpeg);
+	font-family: "Lato", sans-serif;
+	font-size: 24px;
+	font-weight: 900;
+	text-align: center;
+	color: white;
+}
+
+.block1{}
+.block1__container{
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.block1__background {
+	padding: 15px;
+	background: yellowgreen url(../img/caat.jpeg);
+	background-image: linear-gradient(45deg, rgb(161, 140, 209), rgb(251, 194, 235));
+}
+
+.block2{}
+.block2__container{
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.block2__background {
+	height: 700px;
+	padding: 15px;
+	font-family: "Lato", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	color: greenyellow;
+	background: yellowgreen url(../img/caat.jpeg) repeat;
+	background-size: auto 50px;
+}
+
+.block4{}
+.block4__container{
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.block4__background {
+	height: 500px;
+	padding: 15px;
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	background: yellowgreen url(../img/sky.jpeg) center repeat-x scroll;
+    background-size: 40%;
+}
+
+.block5{}
+.block5__container{
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.block5__background {
+	height: 800px;
+	padding: 15px;
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	background: yellowgreen url(../img/caat.jpeg) 15px 100px / contain no-repeat fixed;
+}
+
+.block6{}
+.block6__container{
+	max-width: 800px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
+.block6__background {
+	height: 200px;
+	padding: 15px;
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	background: url(../img/minsk.jpg) no-repeat 0 0 / 150px, url(../img/plant.jpg) no-repeat right top / 150px, palevioletred;
+}
